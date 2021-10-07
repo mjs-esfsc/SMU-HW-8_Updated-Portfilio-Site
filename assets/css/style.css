@@ -1,6 +1,8 @@
 /* Saved Colors */
 :root {
-    --background: #513f69;
+    /*--background: #0a2394;*/
+    /*--background: linear-gradient(to bottom right, rgba(11, 68, 49, 0.829), rgba(23, 87, 129, 0.315));*/
+    --background: radial-gradient( circle, rgba(23, 87, 129, 0.315), rgba(11, 68, 49, 0.829) );
     --light: #f6f2f8;
     --medium: #44475a;
     --dark: #282a36;
@@ -48,6 +50,21 @@
     }
   }
   
+  .mainboxes {
+    background: var(--light);
+    color: var(--medium);
+    overflow: auto;
+    border: var(--dark);
+    padding: 40px 10%;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75rem;
+    letter-spacing: 0.1em;
+    margin: 25px;
+    min-width: 750px;
+  }
+
   .top-banner form {
     padding: 10px;
   }
